@@ -232,8 +232,8 @@ myApp.get('/delete/:orderid', function(req, res){
 // author page
 myApp.get('/author', function(req, res){
     res.render('author', {
-        name : 'Davneet Chawla', // can pass anything like function, string etc to author.ejs
-        studentNumber : '123123'
+        name : 'Sean Yang', // can pass anything like function, string etc to author.ejs
+        studentNumber : '8688543'
     });
 });
 
